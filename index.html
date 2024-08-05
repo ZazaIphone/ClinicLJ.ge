@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>შპს "კლინიკა - ლჯ"</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>შპს "კლინიკა - ლჯ"</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">ჩვენს შესახებ</a></li>
+                    <li><a href="#services">სერვისები</a></li>
+                    <li><a href="#contact">კონტაქტი</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>ჩვენს შესახებ</h2>
+            <p>კლინიკა ლჯ წარმოადგენს თანამედროვე სამედიცინო მომსახურების კომპანიას.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>სერვისები</h2>
+            <ul>
+                <li>ამბულატორიული დიაგნოსტიკა</li>
+                <li>რეანიმაცია</li>
+                <li>გადაუდებელი დახმარების ცენტრი</li>
+                <li>კარდიოლოგია</li>
+                <li>ნევროლოგია</li>
+                <li>ქირურგია</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>დაგვიკავშირდით</h2>
+            <form id="contactForm">
+                <label for="name">სახელი,გვარი:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">შეტყობინება:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">შეტყობინების გაგზავნა</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 წელი შპს "კლინიკა -ლჯ ".</p>
+        </div>
+    </footer>
+</body>
+</html>
